@@ -20,7 +20,7 @@ tickerDf = tickerData.history(period='1d', start='2010-5-31', end='2020-5-31')
 
 #Open   High    Low     Close   Volumme  Dividends Stock    Splits
 
-st.write(""" ###Closing Price""")
+st.write(""" ### Closing Price""")
 st.line_chart(tickerDf.Close)
 st.write(""" ### Volume Price """)
 st.line_chart(tickerDf.Volume)
